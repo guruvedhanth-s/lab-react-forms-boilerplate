@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  background: grey;
+}
+
+
+.error {
+  color: red;
+
+  font-size: 14px;
+  margin-top: 5px; 
+}
+
+div{
+  background-color: whitesmoke;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 300px;
+  height: 330px;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 20px 2px black;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+input{
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+
+::placeholder{
+  color: white;
+}
+
+
+button{
+  background-color: brown;
+  color: white;
+}
